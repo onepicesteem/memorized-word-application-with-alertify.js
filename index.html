@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- include the style -->
+     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" 
+     integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="./node_modules/alertifyjs/build/css/alertify.min.css" />
+    <!-- include a theme -->
+    <link rel="stylesheet" href="./node_modules/alertifyjs/build/css/themes/default.css" />
+    <!-- include the script -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/alertifyjs/build/alertify.min.js"></script>
+    
+    
+   <script src="script.js"></script>
+  
+
+    <title>Alertify</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-6">
+                    <button type="button" id="btnLearn" class="btn btn-primary">Start Learning</button>
+                </div>
+                <div class="col-md-6">
+                    <button type="button" id="btnTheme" class="btn btn-primary">Change Theme</button>
+                </div>
+            </div>
+            
+
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                    <form>
+                            <div class="form-group">
+                              <label >Word :</label>
+                              <input type="text" class="form-control" id="inputWord" placeholder="Enter reminder word">
+                            </div>
+                            <hr/>
+                            <button type="button" id="btnWord" class="btn btn-primary">Submit</button>
+                    </form>
+            </div>
+            <div class="col-md-6">
+                    <ul class="list-group" id="ulWord">
+                        
+                    </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
