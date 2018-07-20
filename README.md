@@ -1,0 +1,1 @@
+# memorized-word-application-with-alertify.js
